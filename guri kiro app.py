@@ -379,10 +379,4 @@ elif page == "Caawiye":
     if st.button("U dir caawiye"):
         st.info(helper_bot(user_msg))
 
-st.markdown("""
----
-**Talooyin dejin:**
-1. Ku socodsii gudaha: `pip install streamlit scikit-learn pillow pandas` kadibna `streamlit run app.py`.
-2. Haddii aad rabto LLM dhab ah, u diyaari API KEY (tusaale `OPENAI_API_KEY`) oo ku dar wicitaan model gudaha `helper_bot`.
-3. Si aad u dhoofiso, adeegso Streamlit Community Cloud ama Docker.
-""")
+
